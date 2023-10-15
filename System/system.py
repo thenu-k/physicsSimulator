@@ -35,7 +35,7 @@ class Fluid:
             return absoluteVelocity
         if time>self.currentWindConfig[0]["duration"][1]:
             self.windConfig.pop(0)
-            return absoluteVelocity
+            return self.findRelativeVelocity(absoluteVelocity, time)
         if time>=self.currentWindConfig[0]["duration"][0] and time<=self.currentWindConfig[0]["duration"][1]:
             return absoluteVelocity - self.windConfig[0]["velocity"]
 
