@@ -1,3 +1,6 @@
 # Physics Simulator
+[Work in Progress]
 
-Latest Working Description: Projectile Motion with Fluid Resistance and Wind
+Projectile Motion with Fluid Resistance and Wind
+
+![Example Computation](media/ex.png "Example Computation")
