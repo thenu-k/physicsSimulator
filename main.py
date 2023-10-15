@@ -1,6 +1,5 @@
 from System.system import Object, Fluid, Simulator, Plotter
 import numpy as np
-import matplotlib.pyplot as plt
 
 object = Object(
     mass = 1,
